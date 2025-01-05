@@ -1,0 +1,33 @@
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+  justify-content: center;
+
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  overflow:scroll;
+  padding: 30px;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.728);
+}
+h1:hover {
+  color: rgb(255, 255, 255);
+}
